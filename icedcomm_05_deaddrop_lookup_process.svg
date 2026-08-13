@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1400"
+   height="900"
+   viewBox="0 0 1400 900"
+   version="1.1"
+   id="svg2885"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+<defs
+     id="defs2765">
+    <marker
+       style="overflow:visible"
+       id="marker2151"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       markerWidth="5.3244081"
+       markerHeight="6.155385"
+       viewBox="0 0 5.3244081 6.1553851"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path2149" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1943"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       markerWidth="5.3244081"
+       markerHeight="6.155385"
+       viewBox="0 0 5.3244081 6.1553851"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path1941" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1771"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       markerWidth="5.3244081"
+       markerHeight="6.155385"
+       viewBox="0 0 5.3244081 6.1553851"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path1769" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker6221"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       markerWidth="5.3244081"
+       markerHeight="6.155385"
+       viewBox="0 0 5.3244081 6.1553851"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path6219" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="TriangleStart"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       markerWidth="5.3244081"
+       markerHeight="6.155385"
+       viewBox="0 0 5.3244081 6.1553851"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135" />
+    </marker>
+    <marker
+       id="arrow"
+       markerWidth="12"
+       markerHeight="12"
+       refX="10"
+       refY="6"
+       orient="auto">
+      <path
+         d="M 0,0 12,6 0,12 Z"
+         fill="#111111"
+         id="path2762" />
+    </marker>
+  </defs>
+  <rect
+     width="1400"
+     height="900"
+     fill="white"
+     id="rect2767" />
+  <style
+     id="style2769">
+    .title { font: 700 34px Arial, Helvetica, sans-serif; fill:#111; }
+    .head  { font: 700 22px Arial, Helvetica, sans-serif; fill:#111; }
+    .text  { font: 18px Arial, Helvetica, sans-serif; fill:#222; }
+    .small { font: 15px Arial, Helvetica, sans-serif; fill:#333; }
+    .box   { fill:#f7f7f7; stroke:#111; stroke-width:3; }
+    .inner { fill:white; stroke:#111; stroke-width:2.5; }
+    .dash  { fill:white; stroke:#111; stroke-width:2.5; stroke-dasharray:9 7; }
+    .path  { fill:none; stroke:#111; stroke-width:3.5; marker-end:url(#arrow); }
+    .thin  { fill:none; stroke:#555; stroke-width:2.5; marker-end:url(#arrow); }
+  </style>
+  <text
+     x="700"
+     y="52"
+     text-anchor="middle"
+     class="title"
+     id="text2771">How Offline Messages Are Found on Deaddrop Servers</text>
+  <!-- Receiver state -->
+  <rect
+     x="55"
+     y="130"
+     width="330"
+     height="625"
+     rx="18"
+     class="box"
+     id="rect2773" />
+  <text
+     x="220"
+     y="172"
+     text-anchor="middle"
+     class="head"
+     id="text2775">Receiver profile state</text>
+  <rect
+     x="95"
+     y="215"
+     width="250"
+     height="78"
+     rx="12"
+     class="inner"
+     id="rect2777" />
+  <text
+     x="220"
+     y="246"
+     text-anchor="middle"
+     class="text"
+     id="text2779">Offline shared secret</text>
+  <text
+     x="220"
+     y="271"
+     text-anchor="middle"
+     class="small"
+     id="text2781">known only to the two peers</text>
+  <rect
+     x="95"
+     y="315"
+     width="250"
+     height="78"
+     rx="12"
+     class="inner"
+     id="rect2783" />
+  <text
+     x="220"
+     y="346"
+     text-anchor="middle"
+     class="text"
+     id="text2785">Sorted peer b32 pair</text>
+  <text
+     x="220"
+     y="371"
+     text-anchor="middle"
+     class="small"
+     id="text2787">low ID + high ID</text>
+  <rect
+     x="95"
+     y="415"
+     width="250"
+     height="78"
+     rx="12"
+     class="inner"
+     id="rect2789" />
+  <text
+     x="220"
+     y="446"
+     text-anchor="middle"
+     class="text"
+     id="text2791">Receive direction</text>
+  <text
+     x="220"
+     y="471"
+     text-anchor="middle"
+     class="small"
+     id="text2793">complement of sender direction</text>
+  <rect
+     x="95"
+     y="515"
+     width="250"
+     height="110"
+     rx="12"
+     class="inner"
+     id="rect2795" />
+  <text
+     x="220"
+     y="546"
+     text-anchor="middle"
+     class="text"
+     id="text2797">Receive base = N</text>
+  <text
+     x="220"
+     y="575"
+     text-anchor="middle"
+     class="small"
+     id="text2799">poll a small expected window</text>
+  <text
+     x="220"
+     y="600"
+     text-anchor="middle"
+     class="small"
+     id="text2801">N, N+1, N+2, ...</text>
+  <rect
+     x="95"
+     y="650"
+     width="250"
+     height="72"
+     rx="12"
+     class="inner"
+     id="rect2803" />
+  <text
+     x="220"
+     y="680"
+     text-anchor="middle"
+     class="text"
+     id="text2805">Ranked active DD list</text>
+  <text
+     x="220"
+     y="705"
+     text-anchor="middle"
+     class="small"
+     id="text2807">only top active replicas queried</text>
+  <!-- Derivation -->
+  <rect
+     x="445"
+     y="205"
+     width="350"
+     height="300"
+     rx="18"
+     class="box"
+     id="rect2809" />
+  <text
+     x="620"
+     y="247"
+     text-anchor="middle"
+     class="head"
+     id="text2811">Derive expected mailbox key</text>
+  <text
+     x="620"
+     y="295"
+     text-anchor="middle"
+     class="small"
+     id="text2813">Inputs</text>
+  <text
+     x="620"
+     y="328"
+     text-anchor="middle"
+     class="text"
+     id="text2815">shared secret</text>
+  <text
+     x="620"
+     y="358"
+     text-anchor="middle"
+     class="text"
+     id="text2817">+ sorted b32 identities</text>
+  <text
+     x="620"
+     y="388"
+     text-anchor="middle"
+     class="text"
+     id="text2819">+ receive direction</text>
+  <text
+     x="620"
+     y="418"
+     text-anchor="middle"
+     class="text"
+     id="text2821">+ message index i</text>
+  <rect
+     x="515"
+     y="445"
+     width="210"
+     height="42"
+     rx="10"
+     class="inner"
+     id="rect2823" />
+  <text
+     x="620"
+     y="472"
+     text-anchor="middle"
+     class="small"
+     id="text2825">SHA-256 mailbox key</text>
+  <path
+     d="m 392.55744,360 h 35.4797"
+     class="path"
+     id="path2827"
+     style="stroke-width:3.7;stroke-dasharray:none;marker-end:url(#TriangleStart)" />
+  <!-- Poll replicas -->
+  <rect
+     x="865"
+     y="105"
+     width="455"
+     height="560"
+     rx="18"
+     class="box"
+     id="rect2829" />
+  <text
+     x="1092.5"
+     y="148"
+     text-anchor="middle"
+     class="head"
+     id="text2831">Poll active deaddrop replicas</text>
+  <rect
+     x="925"
+     y="200"
+     width="335"
+     height="88"
+     rx="12"
+     class="dash"
+     id="rect2833" />
+  <text
+     x="1092.5"
+     y="233"
+     text-anchor="middle"
+     class="head"
+     id="text2835">Deaddrop A</text>
+  <text
+     x="1092.5"
+     y="260"
+     text-anchor="middle"
+     class="small"
+     id="text2837">GET random-looking key → HIT / MISS / FAIL</text>
+  <rect
+     x="925"
+     y="335"
+     width="335"
+     height="88"
+     rx="12"
+     class="dash"
+     id="rect2839" />
+  <text
+     x="1092.5"
+     y="368"
+     text-anchor="middle"
+     class="head"
+     id="text2841">Deaddrop B</text>
+  <text
+     x="1092.5"
+     y="395"
+     text-anchor="middle"
+     class="small"
+     id="text2843">same expected key, independent replica</text>
+  <rect
+     x="925"
+     y="470"
+     width="335"
+     height="88"
+     rx="12"
+     class="dash"
+     id="rect2845" />
+  <text
+     x="1092.5"
+     y="503"
+     text-anchor="middle"
+     class="head"
+     id="text2847">Deaddrop C</text>
+  <text
+     x="1092.5"
+     y="530"
+     text-anchor="middle"
+     class="small"
+     id="text2849">same expected key, independent replica</text>
+  <path
+     d="m 801.80761,352.90082 h 45.84888"
+     class="path"
+     id="path2851"
+     style="stroke-width:3.7;stroke-dasharray:none;marker-end:url(#marker6221)" />
+  <!-- Hit / validation -->
+  <rect
+     x="470"
+     y="600"
+     width="330"
+     height="185"
+     rx="18"
+     class="box"
+     id="rect2853" />
+  <text
+     x="635"
+     y="640"
+     text-anchor="middle"
+     class="head"
+     id="text2855">If a HIT is returned</text>
+  <rect
+     x="515"
+     y="670"
+     width="240"
+     height="46"
+     rx="10"
+     class="inner"
+     id="rect2857" />
+  <text
+     x="635"
+     y="699"
+     text-anchor="middle"
+     class="text"
+     id="text2859">decrypt + validate blob</text>
+  <rect
+     x="515"
+     y="730"
+     width="240"
+     height="46"
+     rx="10"
+     class="inner"
+     id="rect2861" />
+  <text
+     x="635"
+     y="759"
+     text-anchor="middle"
+     class="text"
+     id="text2863">mark index consumed</text>
+  <path
+     d="M 896.92889,622.8132 814.7309,655.55275"
+     class="thin"
+     id="path2865"
+     style="stroke:#111111;stroke-width:3.7;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1943)" />
+  <text
+     x="922.5"
+     y="625"
+     text-anchor="middle"
+     class="small"
+     id="textHitBranch"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:normal;font-family:Arial, Helvetica, sans-serif">HIT</text>
+  <!-- Advance -->
+  <rect
+     x="900"
+     y="705"
+     width="360"
+     height="120"
+     rx="18"
+     class="box"
+     id="rect2867" />
+  <text
+     x="1080"
+     y="742"
+     text-anchor="middle"
+     class="head"
+     id="text2869">Advance receive state</text>
+  <text
+     x="1080"
+     y="775"
+     text-anchor="middle"
+     class="text"
+     id="text2871">receive base moves forward</text>
+  <text
+     x="1080"
+     y="802"
+     text-anchor="middle"
+     class="small"
+     id="text2873">future polls derive only the next expected keys</text>
+  <path
+     d="m 806.53906,721.80843 78.73004,27.63882"
+     class="path"
+     id="path2875"
+     style="stroke-width:3.7;stroke-dasharray:none;marker-end:url(#marker1771)" />
+  <!-- Updated receive state starts the next lookup cycle -->
+  <path
+     d="m 890.1794,812.4569 c -80,22 -310.47999,18.60887 -410.85076,-3.60027 -33.46766,-7.28918 -79.86808,-28.39405 -90.52234,-44.63078"
+     class="thin"
+     id="pathAdvanceToReceiverState"
+     style="stroke:#111111;stroke-width:3.7;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker2151)" />
+  <!-- Miss loop -->
+  <path
+     d="m 896.09056,594.9263 c -35,1.805 -175.02122,-20.05289 -175.55942,-72.37075"
+     class="thin"
+     id="path2877"
+     style="stroke:#111111;stroke-width:3.7;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1771)" />
+  <text
+     x="1090"
+     y="600"
+     text-anchor="middle"
+     class="small"
+     id="text2879"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:normal;font-family:Arial, Helvetica, sans-serif">MISS / FAIL → try next replica or next index in window</text>
+  <!-- bottom note -->
+  <rect
+     x="150"
+     y="842"
+     width="1100"
+     height="42"
+     rx="10"
+     fill="white"
+     stroke="#111"
+     stroke-width="2"
+     id="rect2881" />
+  <text
+     x="700"
+     y="869"
+     text-anchor="middle"
+     class="small"
+     id="text2883">
+    The client does not search the server: it computes the exact mailbox keys it expects and asks only for those keys.
+  </text>
+</svg>

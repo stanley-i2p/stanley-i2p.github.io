@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1500"
+   height="930"
+   viewBox="0 0 1500 930"
+   version="1.1"
+   id="svg2930"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+<defs
+     id="defs2772">
+    <marker
+       style="overflow:visible"
+       id="marker4306"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       markerWidth="5.3244081"
+       markerHeight="6.155385"
+       viewBox="0 0 5.3244081 6.1553851"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path4304" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker4102"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       markerWidth="5.3244081"
+       markerHeight="6.155385"
+       viewBox="0 0 5.3244081 6.1553851"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path4100" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker3924"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       markerWidth="5.3244081"
+       markerHeight="6.155385"
+       viewBox="0 0 5.3244081 6.1553851"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path3922" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker3780"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       markerWidth="5.3244081"
+       markerHeight="6.155385"
+       viewBox="0 0 5.3244081 6.1553851"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path3778" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker3664"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       markerWidth="5.3244081"
+       markerHeight="6.155385"
+       viewBox="0 0 5.3244081 6.1553851"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path3662" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="TriangleStart"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       markerWidth="5.3244081"
+       markerHeight="6.155385"
+       viewBox="0 0 5.3244081 6.1553851"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135" />
+    </marker>
+    <marker
+       id="arrow"
+       markerWidth="12"
+       markerHeight="12"
+       refX="10"
+       refY="6"
+       orient="auto">
+      <path
+         d="M 0,0 12,6 0,12 Z"
+         fill="#111111"
+         id="path2769" />
+    </marker>
+  </defs>
+  <rect
+     width="1500"
+     height="930"
+     fill="white"
+     id="rect2774" />
+  <style
+     id="style2776">
+    .title { font: 700 34px Arial, Helvetica, sans-serif; fill:#111; }
+    .paneltitle { font: 700 24px Arial, Helvetica, sans-serif; fill:#111; }
+    .head { font: 700 19px Arial, Helvetica, sans-serif; fill:#111; }
+    .text { font: 16px Arial, Helvetica, sans-serif; fill:#222; }
+    .small { font: 14px Arial, Helvetica, sans-serif; fill:#333; }
+    .panel { fill:#fafafa; stroke:#111; stroke-width:2.5; }
+    .peer { fill:white; stroke:#111; stroke-width:2.5; }
+    .drop { fill:white; stroke:#111; stroke-width:2.5; stroke-dasharray:8 6; }
+    .link { fill:none; stroke:#111; stroke-width:3; }
+    .diff { fill:none; stroke:#111; stroke-width:3; stroke-dasharray:9 7; marker-end:url(#arrow); }
+  </style>
+  <text
+     x="750"
+     y="52"
+     text-anchor="middle"
+     class="title"
+     id="text2778">Deaddrop Server-List Diffusion Over Time</text>
+  <text
+     x="750"
+     y="82"
+     text-anchor="middle"
+     class="small"
+     id="text2780">Knowledge spreads peer-to-peer during ordinary I2P contacts; no central directory or DHT is required.</text>
+  <!-- TIME 0 PANEL -->
+  <rect
+     x="40"
+     y="125"
+     width="440"
+     height="650"
+     rx="18"
+     class="panel"
+     id="rect2782" />
+  <text
+     x="260"
+     y="165"
+     text-anchor="middle"
+     class="paneltitle"
+     id="text2784">T0 — Local knowledge</text>
+  <circle
+     cx="150"
+     cy="275"
+     r="48"
+     class="peer"
+     id="circle2786" />
+  <text
+     x="150"
+     y="270"
+     text-anchor="middle"
+     class="head"
+     id="text2788">Peer A</text>
+  <text
+     x="150"
+     y="292"
+     text-anchor="middle"
+     class="small"
+     id="text2790"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;line-height:normal;font-family:Arial, Helvetica, sans-serif">DD1, DD2</text>
+  <circle
+     cx="350"
+     cy="275"
+     r="48"
+     class="peer"
+     id="circle2792" />
+  <text
+     x="350"
+     y="270"
+     text-anchor="middle"
+     class="head"
+     id="text2794">Peer B</text>
+  <text
+     x="350"
+     y="292"
+     text-anchor="middle"
+     class="small"
+     id="text2796"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;line-height:normal;font-family:Arial, Helvetica, sans-serif">DD2, DD3</text>
+  <line
+     x1="198"
+     y1="275"
+     x2="302"
+     y2="275"
+     class="link"
+     id="line2798" />
+  <text
+     x="250"
+     y="250"
+     text-anchor="middle"
+     class="small"
+     id="text2800">1:1 I2P contact</text>
+  <rect
+     x="95"
+     y="430"
+     width="115"
+     height="70"
+     rx="10"
+     class="drop"
+     id="rect2802" />
+  <text
+     x="152.5"
+     y="458"
+     text-anchor="middle"
+     class="head"
+     id="text2804">DD1</text>
+  <text
+     x="152.5"
+     y="480"
+     text-anchor="middle"
+     class="small"
+     id="text2806">known by A</text>
+  <rect
+     x="247"
+     y="430"
+     width="115"
+     height="70"
+     rx="10"
+     class="drop"
+     id="rect2808" />
+  <text
+     x="304.5"
+     y="458"
+     text-anchor="middle"
+     class="head"
+     id="text2810">DD2</text>
+  <text
+     x="304.5"
+     y="480"
+     text-anchor="middle"
+     class="small"
+     id="text2812">known by both</text>
+  <rect
+     x="171"
+     y="555"
+     width="115"
+     height="70"
+     rx="10"
+     class="drop"
+     id="rect2814" />
+  <text
+     x="228.5"
+     y="583"
+     text-anchor="middle"
+     class="head"
+     id="text2816">DD3</text>
+  <text
+     x="228.5"
+     y="605"
+     text-anchor="middle"
+     class="small"
+     id="text2818">known by B</text>
+  <text
+     x="260"
+     y="700"
+     text-anchor="middle"
+     class="text"
+     id="text2820">Each peer starts with only its own</text>
+  <text
+     x="260"
+     y="726"
+     text-anchor="middle"
+     class="text"
+     id="text2822">small, incomplete server list.</text>
+  <!-- TIME 1 PANEL -->
+  <rect
+     x="530"
+     y="125"
+     width="440"
+     height="650"
+     rx="18"
+     class="panel"
+     id="rect2824" />
+  <text
+     x="750"
+     y="165"
+     text-anchor="middle"
+     class="paneltitle"
+     id="text2826">T1 — Exchange on contact</text>
+  <circle
+     cx="640"
+     cy="275"
+     r="48"
+     class="peer"
+     id="circle2828" />
+  <text
+     x="640"
+     y="270"
+     text-anchor="middle"
+     class="head"
+     id="text2830">Peer A</text>
+  <text
+     x="640"
+     y="292"
+     text-anchor="middle"
+     class="small"
+     id="text2832"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;line-height:normal;font-family:Arial, Helvetica, sans-serif"><tspan
+       id="tspan3159"
+       x="640"
+       y="292">DD1, DD2,</tspan><tspan
+       id="tspan3161"
+       x="640"
+       y="309.5">DD3</tspan></text>
+  <circle
+     cx="860"
+     cy="275"
+     r="48"
+     class="peer"
+     id="circle2834" />
+  <text
+     x="860"
+     y="270"
+     text-anchor="middle"
+     class="head"
+     id="text2836">Peer B</text>
+  <text
+     x="860"
+     y="292"
+     text-anchor="middle"
+     class="small"
+     id="text2838"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;line-height:normal;font-family:Arial, Helvetica, sans-serif"><tspan
+       id="tspan3163"
+       x="860"
+       y="292">DD1, DD2,</tspan><tspan
+       id="tspan3165"
+       x="860"
+       y="309.5">DD3</tspan></text>
+  <path
+     d="m 688,258 c 42,-33 74.23801,-36.44972 116.23801,-3.44972"
+     class="diff"
+     id="path2840"
+     style="marker-end:url(#marker3924)" />
+  <path
+     d="m 812,292 c -42,33 -75.09761,41.64876 -117.09761,8.64876"
+     class="diff"
+     id="path2842"
+     style="marker-end:url(#marker3780)" />
+  <text
+     x="750"
+     y="215"
+     text-anchor="middle"
+     class="small"
+     id="text2844">exchange selected deaddrop entries</text>
+  <rect
+     x="600"
+     y="430"
+     width="115"
+     height="70"
+     rx="10"
+     class="drop"
+     id="rect2846" />
+  <text
+     x="657.5"
+     y="458"
+     text-anchor="middle"
+     class="head"
+     id="text2848">DD1</text>
+  <text
+     x="657.5"
+     y="480"
+     text-anchor="middle"
+     class="small"
+     id="text2850">propagated</text>
+  <rect
+     x="692"
+     y="545"
+     width="115"
+     height="70"
+     rx="10"
+     class="drop"
+     id="rect2852" />
+  <text
+     x="749.5"
+     y="573"
+     text-anchor="middle"
+     class="head"
+     id="text2854">DD2</text>
+  <text
+     x="749.5"
+     y="595"
+     text-anchor="middle"
+     class="small"
+     id="text2856">already shared</text>
+  <rect
+     x="785"
+     y="430"
+     width="115"
+     height="70"
+     rx="10"
+     class="drop"
+     id="rect2858" />
+  <text
+     x="842.5"
+     y="458"
+     text-anchor="middle"
+     class="head"
+     id="text2860">DD3</text>
+  <text
+     x="842.5"
+     y="480"
+     text-anchor="middle"
+     class="small"
+     id="text2862">propagated</text>
+  <text
+     x="750"
+     y="680"
+     text-anchor="middle"
+     class="text"
+     id="text2864">Useful server knowledge crosses the</text>
+  <text
+     x="750"
+     y="706"
+     text-anchor="middle"
+     class="text"
+     id="text2866">existing trust/contact graph.</text>
+  <!-- TIME 2 PANEL -->
+  <rect
+     x="1020"
+     y="125"
+     width="440"
+     height="650"
+     rx="18"
+     class="panel"
+     id="rect2868" />
+  <text
+     x="1240"
+     y="165"
+     text-anchor="middle"
+     class="paneltitle"
+     id="text2870">T2 — Wider diffusion</text>
+  <circle
+     cx="1120"
+     cy="245"
+     r="44"
+     class="peer"
+     id="circle2872" />
+  <text
+     x="1120"
+     y="240"
+     text-anchor="middle"
+     class="head"
+     id="text2874">A</text>
+  <text
+     x="1120"
+     y="262"
+     text-anchor="middle"
+     class="small"
+     id="text2876">DD1–DD4</text>
+  <circle
+     cx="1360"
+     cy="245"
+     r="44"
+     class="peer"
+     id="circle2878" />
+  <text
+     x="1360"
+     y="240"
+     text-anchor="middle"
+     class="head"
+     id="text2880">B</text>
+  <text
+     x="1360"
+     y="262"
+     text-anchor="middle"
+     class="small"
+     id="text2882">DD1–DD4</text>
+  <circle
+     cx="1120"
+     cy="430"
+     r="44"
+     class="peer"
+     id="circle2884" />
+  <text
+     x="1120"
+     y="425"
+     text-anchor="middle"
+     class="head"
+     id="text2886">C</text>
+  <text
+     x="1120"
+     y="447"
+     text-anchor="middle"
+     class="small"
+     id="text2888">DD2–DD4</text>
+  <circle
+     cx="1360"
+     cy="430"
+     r="44"
+     class="peer"
+     id="circle2890" />
+  <text
+     x="1360"
+     y="425"
+     text-anchor="middle"
+     class="head"
+     id="text2892">D</text>
+  <text
+     x="1360"
+     y="447"
+     text-anchor="middle"
+     class="small"
+     id="text2894">DD1–DD4</text>
+  <line
+     x1="1164"
+     y1="245"
+     x2="1316"
+     y2="245"
+     class="link"
+     id="line2896" />
+  <line
+     x1="1120"
+     y1="289"
+     x2="1120"
+     y2="386"
+     class="link"
+     id="line2898" />
+  <line
+     x1="1360"
+     y1="289"
+     x2="1360"
+     y2="386"
+     class="link"
+     id="line2900" />
+  <line
+     x1="1164"
+     y1="430"
+     x2="1316"
+     y2="430"
+     class="link"
+     id="line2902" />
+  <line
+     x1="1153"
+     y1="276"
+     x2="1327"
+     y2="399"
+     class="link"
+     id="line2904" />
+  <path
+     d="m 1120,500 c 0,35 45.5393,55 105.5393,55"
+     class="diff"
+     id="path2906"
+     style="marker-end:url(#marker4102)" />
+  <path
+     d="m 1360,500 c 0,35 -48.1738,55 -108.1738,55"
+     class="diff"
+     id="path2908"
+     style="marker-end:url(#marker4306)" />
+  <rect
+     x="1180"
+     y="570"
+     width="120"
+     height="72"
+     rx="10"
+     class="drop"
+     id="rect2910" />
+  <text
+     x="1240"
+     y="598"
+     text-anchor="middle"
+     class="head"
+     id="text2912">DD4</text>
+  <text
+     x="1240"
+     y="620"
+     text-anchor="middle"
+     class="small"
+     id="text2914">newly learned</text>
+  <text
+     x="1240"
+     y="685"
+     text-anchor="middle"
+     class="text"
+     id="text2916">Repeated contacts gradually mix</text>
+  <text
+     x="1240"
+     y="711"
+     text-anchor="middle"
+     class="text"
+     id="text2918">server knowledge across the network.</text>
+  <!-- Time arrows -->
+  <path
+     d="m 484.00378,450 30.53395,-0.57549"
+     class="diff"
+     id="path2920"
+     style="stroke-width:3.7;stroke-dasharray:11.1, 8.63333;stroke-dashoffset:0;marker-end:url(#TriangleStart)" />
+  <path
+     d="m 974.02533,450 h 29.89707"
+     class="diff"
+     id="path2922"
+     style="stroke-width:3.7;stroke-dasharray:11.1, 8.63333;stroke-dashoffset:0;marker-end:url(#marker3664)" />
+  <!-- Footer -->
+  <rect
+     x="155"
+     y="820"
+     width="1190"
+     height="72"
+     rx="14"
+     fill="white"
+     stroke="#111"
+     stroke-width="2"
+     id="rect2924" />
+  <text
+     x="750"
+     y="848"
+     text-anchor="middle"
+     class="text"
+     id="text2926">Result: decentralized, gradual discovery</text>
+  <text
+     x="750"
+     y="874"
+     text-anchor="middle"
+     class="small"
+     id="text2928">Peers retain and rank useful deaddrops locally, then pass knowledge onward during later 1:1 contacts.</text>
+</svg>
