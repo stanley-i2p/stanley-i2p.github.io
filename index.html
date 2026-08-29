@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="CommTools-I2P is a compartmentalized communication architecture for direct, offline, and group messaging over I2P. Communication protocol built around direct identities, compartmentalized relationships, and encrypted decentralized offline deaddrops.">
-    <meta property="og:title" content="CommTools-I2P Architecture">
+    <meta name="description" content="CommTools-I2P is a compartmentalized communication architecture for direct, offline, and group messaging over I2P. Decentralized, accountless, and metadata-resistant communication.">
+    <meta property="og:title" content="CommTools-I2P | Private Peer-to-Peer Communication Architecture">
     <meta property="og:description" content="Decentralized, accountless, and encrypted communication over the Invisible Internet Project.">
     <meta property="og:url" content="https://stanley-i2p.github.io/">
     <link rel="canonical" href="https://stanley-i2p.github.io/" />
-    <title>CommTools-I2P | Anonymous Communication Architecture</title>
+    <title>CommTools-I2P | Private Peer-to-Peer Communication Architecture</title>
     <style>
         :root {
             color-scheme: dark;
@@ -347,10 +347,10 @@
                     <p class="eyebrow">I2P-native communication architecture</p>
                     <h1>CommTools-I2P</h1>
                     <p class="intro-text">
-                        A communication model built around direct I2P identities, strict relationship compartments, encrypted application sessions, and offline infrastructure that never needs to understand who is communicating or what is being said.
+                        CommTools-I2P lets you communicate securely over the I2P network without central servers, account registration, or trackable metadata. By giving every relationship its own isolated cryptographic identity, your chats remain truly private—even when you're offline.
                     </p>
                     <p class="intro-note">
-                        CommTools-I2P is the shared architecture and protocol family behind multiple interfaces. It is not a central service, account provider, or relay network.
+                        CommTools-I2P is an open, client-side protocol family powering desktop and terminal interfaces. It is not a centralized service, company, or third-party relay network.
                     </p>
                 </div>
                 <img class="brand-logo" src="commtools-Logo-Plain.svg" alt="CommTools-I2P logo" width="260" height="260">
@@ -359,29 +359,29 @@
 
         <section class="section" aria-labelledby="principles-title">
             <div class="section-heading">
-                <h2 id="principles-title">The Model In Four Principles</h2>
-                <p>Each layer has one narrow responsibility, and no infrastructure component is trusted with more information than it requires.</p>
+                <h2 id="principles-title">Built on Four Core Principles</h2>
+                <p>Safety comes from separating responsibilities. No single layer of the stack ever holds enough information to track or compromise you.</p>
             </div>
             <div class="principles">
                 <article class="principle">
                     <span class="principle-number">01</span>
-                    <h3>I2P is the transport</h3>
-                    <p>Communication uses cryptographic I2P destinations and SAM streams. Network location remains outside the application protocol.</p>
+                    <h3>I2P handles the transport</h3>
+                    <p>All traffic routes through anonymous I2P cryptographic destinations. Your physical IP address and location are completely isolated from your application identity.</p>
                 </article>
                 <article class="principle">
                     <span class="principle-number">02</span>
-                    <h3>Relationships are compartments</h3>
-                    <p>Persistent one-to-one contacts use separate identities and state. One profile does not become a universal identity across every relationship.</p>
+                    <h3>Compartmentalized relationships</h3>
+                    <p>You don't have one master profile. You use a distinct identity for every contact, preventing third parties from linking your conversations together.</p>
                 </article>
                 <article class="principle">
                     <span class="principle-number">03</span>
-                    <h3>Protection continues above I2P</h3>
-                    <p>Peer checks, application-level encrypted framing, delivery state, and heartbeat monitoring form a session layer above anonymous transport.</p>
+                    <h3>Defense beyond transport anonymity</h3>
+                    <p>We layer end-to-end encryption, continuous session integrity checks, and peer validation directly on top of I2P to defend against network-level tampering.</p>
                 </article>
                 <article class="principle">
                     <span class="principle-number">04</span>
-                    <h3>Servers remain untrusted</h3>
-                    <p>Offline deaddrops store opaque encrypted blobs under derived keys. They provide availability, never identity or confidentiality.</p>
+                    <h3>Zero-trust offline storage</h3>
+                    <p>Offline messages are stored on untrusted "deaddrops" as encrypted, indecipherable blobs. Servers store messages temporarily without ever knowing who sent them or who receives them.</p>
                 </article>
             </div>
         </section>
@@ -398,24 +398,24 @@
 
         <section class="section" aria-labelledby="modes-title">
             <div class="section-heading">
-                <h2 id="modes-title">Communication Modes</h2>
-                <p>The architecture uses different models where the security and availability requirements are genuinely different.</p>
+                <h2 id="modes-title">How You Connect</h2>
+                <p>The architecture uses tailored communication models based on your active security and availability needs.</p>
             </div>
             <div class="modes">
                 <article class="mode">
-                    <span class="mode-label">Live one-to-one</span>
+                    <span class="mode-label">Direct live messaging</span>
                     <h3>Direct when both peers are online</h3>
-                    <p>A profile-bound I2P stream connects the two endpoints directly. Persistent contacts can be locked and pinned with TOFU continuity checks.</p>
+                    <p>When both you and your contact are online, messages travel straight between your endpoints over an encrypted I2P stream. No intermediary servers or relays are involved.</p>
                 </article>
                 <article class="mode">
-                    <span class="mode-label">Offline one-to-one</span>
+                    <span class="mode-label">Accountless offline mailboxes</span>
                     <h3>Encrypted mailboxes without accounts</h3>
-                    <p>Replicated deaddrop servers hold opaque blobs. Per-message keys and transient access identities minimize durable server-side metadata.</p>
+                    <p>When a contact is offline, messages are encrypted and temporarily held on decentralized "deaddrop" servers using transient keys, eliminating durable server-side metadata.</p>
                 </article>
                 <article class="mode">
-                    <span class="mode-label">Live groups</span>
-                    <h3>Peer fan-out with separate identities</h3>
-                    <p>Group participants use dedicated group identities and direct member connections. Signed rosters keep membership authority separate from ordinary messaging.</p>
+                    <span class="mode-label">Decentralized group chats</span>
+                    <h3>Direct member fan-out</h3>
+                    <p>Groups operate as direct member-to-member mesh networks without central room servers. Messages fan out directly to each member using dedicated group identities.</p>
                 </article>
             </div>
         </section>
@@ -431,9 +431,9 @@
         </section>
 
         <section class="diagram-section">
-            <h2>Safer Persistent Contact Bootstrap</h2>
+            <h2>Meeting New Contacts Without Leaking Identity</h2>
             <p>
-                A disposable transient session can separate first contact from a long-term relationship. The initial coordination channel sees only a temporary address; persistent identities are exchanged later inside the private transient session, verified, locked to their profiles, and kept after the temporary sessions are discarded.
+                First impressions shouldn't require giving away your permanent identity. You can initiate contact over a temporary, disposable session. Once you verify each other's credentials, you exchange permanent key pairs inside that private session and discard the temporary link.
             </p>
             <div class="diagram-wrapper">
                 <img class="diagram-img" src="icedcomm_07_safe_opsec_1to1_bootstrap.svg" alt="Diagram showing a transient-to-persistent one-to-one contact bootstrap procedure" loading="lazy">
@@ -451,9 +451,9 @@
         </section>
 
         <section class="diagram-section">
-            <h2>Expected-Key Offline Retrieval</h2>
+            <h2>Private Offline Mailbox Retrieval</h2>
             <p>
-                A receiver never searches a deaddrop or asks it to identify an account. Its local profile computes the exact mailbox keys expected for a bounded range of message indexes, queries ranked replicas, authenticates any returned blob, and advances its receive state only after a valid hit.
+                You never ask a server, "Do I have messages?"—doing so leaks your identity. Instead, your local app derives a mathematically unique lookup key for each expected message, fetches that exact encrypted blob from the network, and unpacks it locally.
             </p>
             <div class="diagram-wrapper">
                 <img class="diagram-img" src="icedcomm_05_deaddrop_lookup_process.svg" alt="Diagram showing deterministic mailbox-key derivation and offline message retrieval" loading="lazy">
@@ -461,9 +461,9 @@
         </section>
 
         <section class="diagram-section">
-            <h2>Decentralized Deaddrop Discovery</h2>
+            <h2>Organic Server Discovery</h2>
             <p>
-                Deaddrop knowledge can spread during ordinary trusted one-to-one contacts instead of coming from a central directory or DHT. Peers merge useful entries, measure reliability locally, rank servers from their own results, and pass selected knowledge onward during later contacts.
+                There is no global registry of relay servers. Instead, your client discovers reliable deaddrop nodes organically as you chat with trusted peers. Your client tests these nodes locally, ranks them by reliability, and shares the best ones with your contacts over time.
             </p>
             <div class="diagram-wrapper">
                 <img class="diagram-img" src="icedcomm_06_deaddrop_list_diffusion.svg" alt="Diagram showing peer-to-peer diffusion of deaddrop server lists over time" loading="lazy">
@@ -481,13 +481,13 @@
         </section>
 
         <section class="trust-section">
-            <h2>Sensitive Trust And Secrets Remain At The Endpoints</h2>
+            <h2>Trust Lives at the Edges, Not the Middle</h2>
             <p>
-                CommTools-I2P reduces infrastructure trust by separating transport, session security, offline availability, and local persistence.
+                By pushing all trust and cryptography to your personal device, CommTools-I2P radically reduces what outside networks can see.
             </p>
             <div class="trust-grid">
                 <div>
-                    <h3>External infrastructure may observe</h3>
+                    <h3>What outside servers CAN see</h3>
                     <ul>
                         <li>Connection or mailbox access timing</li>
                         <li>Approximate encrypted traffic and blob sizes</li>
@@ -495,35 +495,35 @@
                     </ul>
                 </div>
                 <div>
-                    <h3>External infrastructure does not know</h3>
+                    <h3>What outside servers NEVER see</h3>
                     <ul>
-                        <li>A central account, phone number, or email address</li>
-                        <li>A global contact list or complete social graph</li>
+                        <li>Your real identity, phone number, or email address</li>
+                        <li>Your global contact list or complete social graph</li>
                         <li>Message plaintext or offline shared secrets</li>
                     </ul>
                 </div>
             </div>
             <p class="boundary">
-                The strongest remaining risks are endpoint compromise, incorrect first-contact trust decisions, implementation defects, denial of service, and broad timing analysis. The model minimizes network and service trust; it does not claim to protect a compromised device.
+                <strong>Realistic Security Notice:</strong> CommTools-I2P eliminates central points of surveillance, but it cannot protect against malware on an already compromised device, device theft without local encryption, or user errors during initial key verification.
             </p>
         </section>
 
         <section class="implementation-section">
-            <h2>One Architecture, Multiple Interfaces</h2>
+            <h2>Choose Your Interface</h2>
             <p>
-                The protocol and security model are independent of a particular user interface. Implementations can serve different environments while preserving the same communication boundaries.
+                CommTools-I2P is a core specification that powers native clients across different operating systems while preserving the exact same communication boundaries.
             </p>
             <div class="implementation-list">
                 <div class="implementation">
-                    <strong>IcedComm-I2P</strong>
-                    <p>A Rust/Iced desktop implementation for graphical environments.</p>
-                    <a class="implementation-link" href="https://github.com/stanley-i2p/icedcomm-i2p">Project details on GitHub</a>
+                    <strong>IcedComm-I2P (Desktop GUI)</strong>
+                    <p>A clean, modern desktop application written in Rust and Iced for graphical desktop environments.</p>
+                    <a class="implementation-link" href="https://github.com/stanley-i2p/icedcomm-i2p">View Source on GitHub →</a>
                     <img class="implementation-screenshot" src="icedcomm-i2p-screen1.png" alt="IcedComm-I2P graphical desktop interface" loading="lazy">
                 </div>
                 <div class="implementation">
-                    <strong>Termchat-I2P</strong>
-                    <p>A Python implementation for terminal based environments.</p>
-                    <a class="implementation-link" href="https://github.com/stanley-i2p/termchat-i2p">Project details on GitHub</a>
+                    <strong>Termchat-I2P (Terminal TUI)</strong>
+                    <p>A lightweight, keyboard-driven Python client built for command-line power users and headless systems.</p>
+                    <a class="implementation-link" href="https://github.com/stanley-i2p/termchat-i2p">View Source on GitHub →</a>
                     <img class="implementation-screenshot" src="termchat-i2p-screen1.png" alt="Termchat-I2P terminal interface" loading="lazy">
                 </div>
             </div>
